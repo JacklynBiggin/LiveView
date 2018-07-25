@@ -32,12 +32,13 @@
 			<h2 class="header section-header"><i class="fas fa-fw fa-newspaper"></i> Script</h2>
 			<div class="section-content">...</div>
 			
-			<div class="footer"><a href="#">Enable Tech Mode</a> | <a href="#">Made with ♥ by Jack Biggin</a></div>
+			<div class="footer"><a href="#" onClick="enableTech();">Enable Tech Mode</a> | <a href="http://jackbiggin.me">Made with ♥ by Jack Biggin</a></div>
 		</div>
 
 		<!-- JS -->
 		<script src="./assets/js/jquery-3.3.1.slim.min.js" ></script>
 		<script src="./assets/js/popper.min.js"></script>
 		<script src="./assets/js/bootstrap.min.js"></script>
+		<script src="./assets/js/app.js"></script>
 	</body>
 </html>
