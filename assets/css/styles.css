@@ -1,0 +1,106 @@
+/* Override Defaults */
+* {
+	font-family: "Open Sans";
+}
+
+body {
+	background-color: #f1f2f6;
+}
+
+/* Fonts */
+@font-face {
+	font-family: "Open Sans";
+	src: url("../webfonts/OpenSans-Regular.ttf") format("truetype");
+	font-weight: 400;
+	font-style: normal;	
+}
+
+@font-face {
+	font-family: "Open Sans";
+	src: url("../webfonts/OpenSans-SemiBold.ttf") format("truetype");
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: "Open Sans";
+	src: url("../webfonts/OpenSans-Bold.ttf") format("truetype");
+	font-weight: 600;
+	font-style: bold;
+}
+
+@font-face {
+	font-family: "Open Sans";
+	src: url("../webfonts/OpenSans-ExtraBold.ttf") format("truetype");
+	font-weight: 700;
+}
+
+/* Navbar */
+.custom-nav {
+	background-color: #2f3542;
+	margin-bottom: 1em;
+}
+
+.custom-nav .title {
+	font-weight: 600;
+}
+
+/* Time Headers */
+.header {
+	width: 100%;
+	padding: 1em 2em;
+	font-weight: 500;
+}
+
+.header.now {
+	background-color: #3742fa;
+	color: white;
+}
+
+.header.previously {
+	background-color: #dfe4ea;
+	color: #57606f;
+}
+
+.header.next {
+	background-color: #dfe4ea;
+	color: #57606f;
+}
+
+.header .title {
+	font-weight: 700;
+}
+
+/* Sections */
+.section-header {
+	background-color: #3742fa;
+	color: white;
+	font-weight: 600;
+	font-size: 1.6em;
+	margin-top: 1em;
+	margin-bottom: 0;
+}
+
+.section-content {
+	background-color: #ffffff;
+	color: #2f3542;
+	border: 1px solid #ced6e0;
+	padding: 2em;
+}
+
+/* Footer */
+.footer {
+	text-align: center;
+	font-weight: bold;
+	margin-top: 1em;
+	color: #a4b0be;
+	text-shadow: 0px 2px 0px rgba(255,255,255,.5);
+}
+
+.footer a {
+	color: #a4b0be;
+}
+
+.footer a:hover {
+	text-decoration: none;
+	color: #747d8c;
+}
