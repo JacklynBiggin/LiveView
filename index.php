@@ -1,3 +1,13 @@
+<?php
+
+	$tech = false;
+
+	if(isset($_COOKIE['tech'])) {
+		if(htmlspecialchars($_COOKIE['tech'])) {
+			$tech = true;
+		}
+	}
+?>
 <!doctype html>
 <html lang="en">
 	<head>
@@ -17,7 +27,7 @@
 	<body>
 		<nav class="navbar navbar-dark custom-nav">
 			<div class="container">
-				<span class="navbar-brand mb-0 h1"><span class="title">LiveView:</span> Show name</span>
+				<span class="navbar-brand mb-0 h1"><span class="title"><?php if($tech){ echo '<span class="tech-signifier">TECH MODE</span>';};?> LiveView:</span> Show name</span>
 			</div>
 		</nav>
 		
@@ -36,9 +46,10 @@
 		</div>
 
 		<!-- JS -->
-		<script src="./assets/js/jquery-3.3.1.slim.min.js" ></script>
+		<script src="./assets/js/jquery-3.3.1.min.js" ></script>
 		<script src="./assets/js/popper.min.js"></script>
 		<script src="./assets/js/bootstrap.min.js"></script>
+		<script src="./assets/js/js.cookie.js"></script>
 		<script src="./assets/js/app.js"></script>
 	</body>
 </html>

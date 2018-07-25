@@ -44,6 +44,14 @@ body {
 	font-weight: 600;
 }
 
+.custom-nav .tech-signifier {
+	background-color: #1e90ff;
+	color: white;
+	border: 1px solid #002A99;
+	padding: 0.2em 0.5em;
+	margin-right: 0.5em;
+}
+
 /* Time Headers */
 .header {
 	width: 100%;
